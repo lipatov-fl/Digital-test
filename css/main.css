@@ -1,0 +1,206 @@
+/* Начальные стили 
+===========================================*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+* {
+    transition: all 0.2s;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+}
+
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+    max-width: 1074px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* TASK 1 */
+
+.navigation__list {
+    border: 1px solid #000;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 358px; 
+    Line-height: 16px;
+}
+
+.navigation__item {
+    background: #CCC;
+    padding: 10px 20px;
+    color: #000;
+}
+
+.navigation__item:hover {
+    background-color: #9C9C9C;
+}
+
+.navigation__item:active {
+    box-shadow: inset 0 0 6px;
+}
+
+.navigation__item a:focus {
+    color:#fff;
+}
+
+.navigation__item a{
+    display: block;
+    color: #000;
+}
+
+.navigation__item:first-child {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.navigation__item:last-child {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* TASK 2 */
+
+.form__wrap {
+    width: 38.5%;
+    background: #9C9C9C;
+    border: 2px solid #626262;
+    border-radius: 3px;
+} 
+
+.form__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    padding: 20px;
+}
+
+hr {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.form__inner, .buttons__inner {
+    padding: 20px;
+}
+
+.form__inner:first-child {
+    padding-top: 0px;
+}
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    line-height: 16.41px;
+}
+
+.form__item:last-child {
+    margin-bottom: 0px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid #9C9C9C;
+    border-radius: 3px;
+    padding: 6px 10px;
+}
+
+.buttons__inner {
+    display: flex;
+    justify-content: space-between;
+    line-height: 16px;
+}
+
+.btn {
+    padding: 8px 12px;
+    background: #616161;
+    border: 1px solid #616161;
+    border-radius: 3px;
+    color: #CCC;
+}
+
+.btn__cancel {
+    background: #CCC;
+    color: #616161;
+}
+
+.form__pass-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__pass_item {
+    max-width: 175px;
+}
+
+
+/* TASK 3 */
+
+.stepper {
+    width: 920px;
+    display: flex;
+    justify-content: center;
+  }
+  .step a {
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 60px;
+    font-weight: bold;
+    display: block;
+    height: 100%;
+  }
+
+  .step:hover {
+    background: linear-gradient(rgba(46, 161, 57, 1), rgba(98, 253, 113, 1), rgba(46, 161, 57, 1));
+}
+  
+  .stepper1{
+    flex: 0 1 310px;
+    height: 60px;
+    background: linear-gradient(rgba(104, 104, 104, 1), rgba(178, 178, 178, 1), rgba(104, 104, 104, 1));
+    clip-path: polygon(96% 0, 100% 48%, 96% 100%, 0% 100%, 0 50%, 0% 0%);
+  }
+  
+  .stepper2 {
+    flex: 0 1 310px;
+    height: 60px;
+    background: linear-gradient(rgba(104, 104, 104, 1), rgba(178, 178, 178, 1), rgba(104, 104, 104, 1));
+    clip-path: polygon(96% 0, 100% 48%, 96% 100%, 0% 100%, 4% 49%, 0% 0%);
+  }
+  
+  .stepper3 {
+    flex: 0 1 310px;
+    height: 60px;
+    background: linear-gradient(rgba(104, 104, 104, 1), rgba(178, 178, 178, 1), rgba(104, 104, 104, 1));
+    clip-path: polygon(100% 0, 100% 48%, 100% 100%, 0% 100%, 4% 49%, 0% 0%);
+  }
+  
+
+
+
+ 
+
+
